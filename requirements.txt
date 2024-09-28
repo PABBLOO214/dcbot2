@@ -1,0 +1,4 @@
+random
+nextcord
+playwright
+asyncio

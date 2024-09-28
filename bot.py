@@ -3,6 +3,7 @@ import nextcord
 from nextcord.ext import commands
 from playwright.async_api import async_playwright
 import asyncio
+import webserver
 
 async def install_playwright():
     """Install Playwright and its browsers if not already installed."""
@@ -183,5 +184,5 @@ async def launch_attack(account, ip, time_value):
         await browser.close()  # Close the browser after the attack is launched
 
 
-# Run the bot
+webserver.keep_alive()
 bot.run('MTI4OTYyMjk4MjY0NTI1NjI2NQ.G2PBPe.0xGirgeKDTRcgjKK-Md5vu8GitLZMIv40t5Xl8')
