@@ -185,4 +185,4 @@ async def launch_attack(account, ip, time_value):
 
 
 webserver.keep_alive()
-bot.run('MTI4OTYyMjk4MjY0NTI1NjI2NQ.G2PBPe.0xGirgeKDTRcgjKK-Md5vu8GitLZMIv40t5Xl8')
+bot.run('MTI4OTYyMjk4MjY0NTI1NjI2NQ.GlEqT6.5Bpy18qXD0RTZRgMzFMnaABQv5YRHBVgXaTZ44')
